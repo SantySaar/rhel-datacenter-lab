@@ -110,7 +110,7 @@ rhel-datacenter-lab/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tuusuario/rhel-datacenter-lab.git
+git clone https://github.com/SantySaar/rhel-datacenter-lab-.git
 cd rhel-datacenter-lab
 
 # 2. Levantar las 3 VMs (primera vez descarga ~1.5GB)
@@ -124,7 +124,7 @@ vagrant status
 vagrant ssh control
 
 # 5. Clonar el proyecto dentro del control
-git clone https://github.com/tuusuario/rhel-datacenter-lab.git
+git clone https://github.com/SantySaar/rhel-datacenter-lab-.git
 cd rhel-datacenter-lab
 
 # 6. Instalar collections
