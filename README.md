@@ -13,10 +13,20 @@
 
 ## 📸 Screenshots
 
-<!-- Añade aquí las capturas cuando las tengas -->
-<!-- ![Portfolio web](docs/img/portfolio.png) -->
-<!-- ![HAProxy stats](docs/img/haproxy-stats.png) -->
-<!-- ![Ansible playbook](docs/img/ansible-run.png) -->
+### Portfolio web desplegado por Ansible
+![Portfolio web](docs/img/portfolio-web.png)
+
+### Ansible playbook — despliegue completo en verde
+![Ansible playbook](docs/img/ansible-playbook.png)
+
+### HAProxy stats dashboard
+![HAProxy stats](docs/img/haproxy-stats.png)
+
+### Podman container corriendo
+![Podman container](docs/img/podman-container.png)
+
+### 3 VMs Rocky Linux 9 running
+![Vagrant status](docs/img/vagrant-status.png)
 
 ---
 
