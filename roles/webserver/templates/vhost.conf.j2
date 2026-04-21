@@ -1,8 +1,16 @@
 {# roles/webserver/templates/vhost.conf.j2 — RH358 #}
 <VirtualHost *:80>
     ServerName {{ web_server_name }}
-    RewriteEngine On
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}$1 [R=301,L]
+    DocumentRoot {{ web_document_root }}
+
+    <Directory {{ web_document_root }}>
+        Options -Indexes +FollowSymLinks
+        AllowOverride None
+        Require all granted
+    </Directory>
+
+    ErrorLog  /var/log/httpd/lab_error.log
+    CustomLog /var/log/httpd/lab_access.log combined
 </VirtualHost>
 
 <VirtualHost *:443>
