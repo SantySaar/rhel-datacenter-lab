@@ -57,13 +57,13 @@ Despliegue automatizado de un **datacenter de 3 nodos Rocky Linux 9** con:
   │         │ SSH (Ansible managed)             │
   │    ┌────┴──────────────────┐                │
   │    │                       │                │
-  │  ┌─▼────────────┐  ┌───────▼──────────┐     │
-  │  │  web         │  │  services        │     │
-  │  │  .56.20      │  │  .56.30          │     │
-  │  │  Apache/TLS  │  │  DNS + NFS       │     │
-  │  │  HAProxy     │  │  Samba + MariaDB │     │
-  │  │  Podman      │  │                  │     │
-  │  └──────────────┘  └──────────────────┘     │
+  │  ┌─▼────────────┐  ┌───────▼──────────┐    │
+  │  │  web         │  │  services        │    │
+  │  │  .56.20      │  │  .56.30          │    │
+  │  │  Apache/TLS  │  │  DNS + NFS       │    │
+  │  │  HAProxy     │  │  Samba + MariaDB │    │
+  │  │  Podman      │  │                  │    │
+  │  └──────────────┘  └──────────────────┘    │
   │                                             │
   │  Red host-only: 192.168.56.0/24             │
   └─────────────────────────────────────────────┘
@@ -143,7 +143,6 @@ rhel-datacenter-lab/
 └── vagrant/
     └── Vagrantfile    ← define las 3 VMs
 ```
-
 
 ---
 
